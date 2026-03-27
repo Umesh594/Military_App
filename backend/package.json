@@ -1,0 +1,23 @@
+{
+"name": "military-asset-management-backend",
+"version": "1.0.0",
+"description": "Backend for Military Asset Management System with RBAC, logging, and asset tracking",
+"main": "index.js",
+"type": "commonjs",
+"scripts": {
+"start": "node index.js",
+"dev": "nodemon index.js"
+},
+"dependencies": {
+"bcryptjs": "^3.0.3",
+"cors": "^2.8.6",
+"dotenv": "^17.3.1",
+"express": "^4.19.2",
+"jsonwebtoken": "^9.0.3",
+"mongoose": "^9.3.3",
+"morgan": "^1.10.1"
+},
+"devDependencies": {
+"nodemon": "^3.1.0"
+}
+}
